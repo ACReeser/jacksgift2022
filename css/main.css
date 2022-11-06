@@ -278,7 +278,7 @@ nav > *{
 }
 nav > h1 {
   flex-grow: 1;
-  margin-left: 2em;
+  margin-left: 2vw;
 }
 nav > div {
   min-width: 66px;
@@ -299,6 +299,11 @@ article{
 }
 article > .pad{
   height: 44px;  
+}
+article > img{
+  margin: auto;
+  max-height: calc( 100vh - 88px);
+  max-width: 100vw;
 }
 .gallery{
   position: fixed;
